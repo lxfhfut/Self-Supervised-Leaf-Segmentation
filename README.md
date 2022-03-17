@@ -1,6 +1,6 @@
 # Self-supervised-leaf-segmentation
 ## Introduction
-This repository contains the code for *Self-supervised Leaf Segmentation Under Complex Lighting Conditions*. Intended for plant growth monitoring in a real-world greenhouse, this project leverages self-supervised learning for effective and generalizable leaf segmentation in images taken under artificial grow lights, without resorting to any annotated data.
+This repository contains the code for *Self-supervised Leaf Segmentation Under Complex Lighting Conditions*. Intended for plant growth monitoring in a real-world cannabis greenhouse, this project leverages self-supervised learning for effective and generalizable leaf segmentation in images taken under artificial grow lights, without resorting to any annotated data.
 ## Datasets
 
 ## Demos
