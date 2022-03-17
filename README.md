@@ -7,8 +7,10 @@ We use two datasets in our experiments: Our Cannabis dataset and the CVPPP leaf 
 <figure>
   <img src="images/2021_07_03_01_rgb.png" height="200" width="200"/> 
 <figcaption align = "center"><b>Cannabis "Natural"</b></figcaption>
+  <img src="images/2021_07_09_09_rgb.png" height="200" width="200"/>
+  <figcaption align = "center"><b>Cannabis "Natural"</b></figcaption>
 </figure>
-<img src="images/2021_07_09_09_rgb.png" height="250" width="250"/> <img src="images/2021_07_11_07_rgb.png" height="250" width="250"/> 
+<img src="images/2021_07_11_07_rgb.png" height="250" width="250"/> 
 
 ## Demos
 ### Cannabis leaves
