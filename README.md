@@ -5,10 +5,8 @@ This repository contains the code for *Self-supervised Leaf Segmentation Under C
 We use two datasets in our experiments: Our Cannabis dataset and the CVPPP leaf segmentation challenge (LSC) dataset. Our Cannabis dataset contains 120 images captured under three different lighting conditions: "Natural", "Yellow", and "Purple". To simulate the "Yellow" and "Purple" lighting conditions for the CVPPP dataset, we generate the "Yellow" and "Purple" versions of each image by manipulating the hue value of each pixel. The original CVPPP LSC dataset is refered to as "Natural". Sample images are shown below:
 
 <figure>
-  <img src="images/2021_07_03_01_rgb.png" height="200" width="200"/> 
-<figcaption align = "center"><b>Cannabis "Natural"</b></figcaption>
-  <img src="images/2021_07_09_09_rgb.png" height="200" width="200"/>
-  <figcaption align = "center"><b>Cannabis "Natural"</b></figcaption>
+  <img src="images/2021_07_03_01_rgb.png" height="200" width="200"/>  <img src="images/2021_07_09_09_rgb.png" height="200" width="200"/>
+<figcaption align = "center"><b>Cannabis "Natural"</b></figcaption> <figcaption align = "center"><b>Cannabis "Natural"</b></figcaption>
 </figure>
 <img src="images/2021_07_11_07_rgb.png" height="250" width="250"/> 
 
