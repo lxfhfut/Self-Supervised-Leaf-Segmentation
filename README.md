@@ -70,7 +70,7 @@ python leaf_segmenter.py --help
 <img src="examples/instance_segmentation.png" width="800"/>
 
 ## Acknowledgement
-Huge thanks to the following projects, which form the backbone of this repository:
+Thanks to the following projects, which lay the foundation for this repository:
 * #### [**Fully Connected CRF**](https://github.com/lucasb-eyer/pydensecrf)
 * #### [**Convolutional CRF**](https://github.com/MarvinTeichmann/ConvCRF)
 * #### [**Image Colorization**](https://colab.research.google.com/github/smartgeometry-ucl/dl4g/blob/master/colorization.ipynb)
