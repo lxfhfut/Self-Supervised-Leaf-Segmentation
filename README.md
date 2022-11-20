@@ -68,6 +68,7 @@ python leaf_segmenter.py --help
 <img src="examples/plant030_result.gif" width="400"/> <img src="examples/plant158_result.gif" width="400"/>
 ### Instance segmentation based on the binary leaf mask using distance map method
 <img src="examples/instance_segmentation.png" width="800"/>
+
 ## Acknowledgement
 Huge thanks to the following projects, which form the backbone of this repository:
 * #### [**Fully Connected CRF**](https://github.com/lucasb-eyer/pydensecrf)
