@@ -68,7 +68,8 @@ python leaf_segmenter.py --help
 <img src="examples/plant030_result.gif" width="400"/> <img src="examples/plant158_result.gif" width="400"/>
 ## Acknowledgement
 Huge thanks to the below projects, which form the backbones of this repository:
-* #### [**DenseCRF**](https://github.com/lucasb-eyer/pydensecrf)
-* #### [**ConvCRF**](https://github.com/MarvinTeichmann/ConvCRF)
-* #### [**pytorch-unsupervised-segmentationp**](https://github.com/kanezaki/pytorch-unsupervised-segmentation)
-* #### [**pytorch-unsupervised-segmentation-tip**](https://github.com/kanezaki/pytorch-unsupervised-segmentation-tip)
+* #### [**Fully Connected CRF**](https://github.com/lucasb-eyer/pydensecrf)
+* #### [**Convolutional CRF**](https://github.com/MarvinTeichmann/ConvCRF)
+* #### [**unsupervised-segmentationp**](https://github.com/kanezaki/pytorch-unsupervised-segmentation)
+* #### [**Image Colorization**](https://colab.research.google.com/github/smartgeometry-ucl/dl4g/blob/master/colorization.ipynb)
+* #### [**Image-to-Image Translation**](https://github.com/phillipi/pix2pix)
