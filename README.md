@@ -1,9 +1,26 @@
 # Self-supervised-leaf-segmentation
 ## Introduction
-This repository contains the code for [*Self-supervised Leaf Segmentation Under Complex Lighting Conditions*](https://www.sciencedirect.com/science/article/abs/pii/S0031320322005015). Intended for growth monitoring in a real-world cannabis greenhouse, this project leverages self-supervised learning for effective and generalizable leaf segmentation in images taken under artificial grow lights, without resorting to any annotated data.
+This repository contains the code for [*Self-supervised Leaf Segmentation Under Complex Lighting Conditions*](https://www.sciencedirect.com/science/article/abs/pii/S0031320322005015). Intended for growth monitoring in a real-world smart greenhouse environment, this project leverages self-supervised learning for effective and generalizable leaf segmentation in images taken under artificial grow lights, without resorting to any annotated data. If you find this work useful, please cite our paper:
+```
+@article{lin2022self,
+  title={Self-Supervised Leaf Segmentation under Complex Lighting Conditions},
+  author={Lin, Xufeng and Li, Chang-Tsun and Adams, Scott and Kouzani, Abbas and others},
+  journal={Pattern Recognition},
+  pages={109021},
+  year={2022},
+  publisher={Elsevier}
+}
+```
+## Instructions
+The code was only tested on Ubuntu 20.04 with an NVIDIA GeForce RTX 2080 Ti. To get started, make sure the dependencies are installed via Anaconda:
+```
+# create and activate environment
+conda env create -f ssls.yml
+conda activate ssls
+```
 ## Datasets
 We use two datasets in our experiments: **Our Cannabis dataset** and the **CVPPP leaf segmentation challenge (LSC) dataset**. 
-These two datasets can be downloaded <a href="https://drive.google.com/drive/folders/1tmaRUmdnDhyvnznOWD_S1sYkxb-g02MT?usp=sharing" target="_blank">here</a>.
+These two datasets and the pretained color correction models can be downloaded <a href="https://drive.google.com/drive/folders/1tmaRUmdnDhyvnznOWD_S1sYkxb-g02MT?usp=sharing" target="_blank">here</a>. Put the downloaded 'pretrained' folder in the root directory of the source code (i.e., at the same level as folders 'imgs', 'exmaples' and 'output').
 
 Our Cannabis dataset contains 120 images captured under three different lighting conditions: "Natural", "Yellow", and "Purple", with 40 images obtained in each lighting condition. 
 
