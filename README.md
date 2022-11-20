@@ -69,3 +69,6 @@ python leaf_segmenter.py --help
 ## Acknowledgement
 Huge thanks to the below projects, which form the backbones of this repository:
 * #### [**DenseCRF**](https://github.com/lucasb-eyer/pydensecrf)
+* #### [**ConvCRF**](https://github.com/MarvinTeichmann/ConvCRF)
+* #### [**pytorch-unsupervised-segmentationp**](https://github.com/kanezaki/pytorch-unsupervised-segmentation)
+* #### [**pytorch-unsupervised-segmentation-tip**](https://github.com/kanezaki/pytorch-unsupervised-segmentation-tip)
