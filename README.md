@@ -11,6 +11,13 @@ This repository contains the code for [*Self-supervised Leaf Segmentation Under 
   publisher={Elsevier}
 }
 ```
+## Instructions
+The code was only tested on Ubuntu 20.04 with an NVIDIA GeForce RTX 2080 Ti. To get started, make sure the dependencies are installed via Anaconda:
+```
+# create and activate environment
+conda env create -f ssls.yml
+conda activate ssls
+```
 ## Datasets
 We use two datasets in our experiments: **Our Cannabis dataset** and the **CVPPP leaf segmentation challenge (LSC) dataset**. 
 These two datasets and the pretained color correction models can be downloaded <a href="https://drive.google.com/drive/folders/1tmaRUmdnDhyvnznOWD_S1sYkxb-g02MT?usp=sharing" target="_blank">here</a>. Put the downloaded 'pretrained' folder in the root directory of the source code (i.e., at the same level as folders 'imgs', 'exmaples' and 'output').
