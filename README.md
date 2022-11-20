@@ -41,7 +41,7 @@ The color-corrected image will be saved in './output/color_corrected.jpg'. **For
 4. There are various parameters you can control to generate the desired results. For more information, please run 
 ```
 python leaf_segmenter.py --help
-'''
+```
 
 ## Datasets
 We use two datasets in our experiments: **Our Cannabis dataset** and the **CVPPP leaf segmentation challenge (LSC) dataset**. 
