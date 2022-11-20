@@ -67,7 +67,7 @@ python leaf_segmenter.py --help
 ### Large-sized leaves in the CVPPP LSC dataset
 <img src="examples/plant030_result.gif" width="400"/> <img src="examples/plant158_result.gif" width="400"/>
 ## Acknowledgement
-Huge thanks to the below projects, which form the backbones of this repository:
+Huge thanks to the following projects, which form the backbone of this repository:
 * #### [**Fully Connected CRF**](https://github.com/lucasb-eyer/pydensecrf)
 * #### [**Convolutional CRF**](https://github.com/MarvinTeichmann/ConvCRF)
 * #### [**Image Colorization**](https://colab.research.google.com/github/smartgeometry-ucl/dl4g/blob/master/colorization.ipynb)
