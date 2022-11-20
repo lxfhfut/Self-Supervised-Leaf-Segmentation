@@ -58,15 +58,15 @@ The color-corrected image will be saved in './output/color_corrected.jpg'. **For
 python leaf_segmenter.py --help
 ```
 ## Results
-### Cannabis leaves
+* ### Cannabis leaves
 <img src="examples/2021_06_30_04_result.gif" width="400"/> <img src="examples/2021_07_04_02_result.gif" width="400"/> 
-### Small-sized leaves in the CVPPP LSC dataset
+* ### Small-sized leaves in the CVPPP LSC dataset
 <img src="examples/plant042_result.gif" width="400"/> <img src="examples/plant0868_result.gif" width="400"/>
-### Medium-sized leaves in the CVPPP LSC dataset
+* ### Medium-sized leaves in the CVPPP LSC dataset
 <img src="examples/plant0906_result.gif" width="400"/> <img src="examples/plant0946_result.gif" width="400"/>
-### Large-sized leaves in the CVPPP LSC dataset
+* ### Large-sized leaves in the CVPPP LSC dataset
 <img src="examples/plant030_result.gif" width="400"/> <img src="examples/plant158_result.gif" width="400"/>
-### Instance segmentation based on the binary leaf mask using distance map method
+* ### Instance segmentation based on the binary leaf mask using distance map method
 <img src="examples/instance_segmentation.png" width="800"/>
 
 ## Acknowledgement
