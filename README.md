@@ -66,6 +66,8 @@ python leaf_segmenter.py --help
 <img src="examples/plant0906_result.gif" width="400"/> <img src="examples/plant0946_result.gif" width="400"/>
 ### Large-sized leaves in the CVPPP LSC dataset
 <img src="examples/plant030_result.gif" width="400"/> <img src="examples/plant158_result.gif" width="400"/>
+### Instance segmentation based on the binary leaf mask with distance map
+<img src="examples/instance_segmentation.png" width="400"/>
 ## Acknowledgement
 Huge thanks to the following projects, which form the backbone of this repository:
 * #### [**Fully Connected CRF**](https://github.com/lucasb-eyer/pydensecrf)
